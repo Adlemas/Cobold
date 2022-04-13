@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "converter": "node converter.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Adlemas/Cobold/issues"
   },
-  "homepage": "https://github.com/Adlemas/Cobold#readme"
+  "homepage": "https://github.com/Adlemas/Cobold#readme",
+  "dependencies": {
+    "node-fs": "^0.1.7",
+    "node-xlsx": "^0.21.0"
+  }
 }

@@ -1,0 +1,157 @@
+[
+    {
+        "date": 1609448344000,
+        "person": "A",
+        "expense": 304,
+        "split_between": [
+            "A",
+            "B",
+            "C"
+        ],
+        "owes": "A",
+        "from": "B"
+    },
+    {
+        "date": 1609448344000,
+        "person": "B",
+        "expense": 200,
+        "split_between": [
+            "B",
+            "C"
+        ],
+        "owes": "A",
+        "from": "C"
+    },
+    {
+        "date": 1609534744000,
+        "person": "A",
+        "expense": 540,
+        "split_between": [
+            "A",
+            "D",
+            "C",
+            "E"
+        ],
+        "owes": "A",
+        "from": "D"
+    },
+    {
+        "date": 1609534744000,
+        "person": "C",
+        "expense": 2400,
+        "split_between": [
+            "D",
+            "C",
+            "E"
+        ],
+        "owes": "A",
+        "from": "E"
+    },
+    {
+        "date": 1609621144000,
+        "person": "E",
+        "expense": 1210,
+        "split_between": [
+            "E",
+            "A",
+            "B",
+            "D"
+        ],
+        "owes": "B",
+        "from": "A"
+    },
+    {
+        "date": 1609707544000,
+        "person": "D",
+        "expense": 214,
+        "split_between": [
+            "E",
+            "A"
+        ],
+        "owes": "B",
+        "from": "C"
+    },
+    {
+        "date": 1609707544000,
+        "person": "A",
+        "expense": 300,
+        "split_between": [
+            "A",
+            "B",
+            "C"
+        ],
+        "owes": "B",
+        "from": "D"
+    },
+    {
+        "date": 1609793944000,
+        "person": "B",
+        "expense": 1200,
+        "split_between": [
+            "E",
+            "D",
+            "B"
+        ],
+        "owes": "B",
+        "from": "E"
+    },
+    {
+        "date": 1609793944000,
+        "person": "D",
+        "expense": 354,
+        "split_between": [
+            "A",
+            "B",
+            "D"
+        ],
+        "owes": "C",
+        "from": "A"
+    },
+    {
+        "date": 1578257944000,
+        "person": "E",
+        "expense": 1000,
+        "split_between": [
+            "A",
+            "E"
+        ],
+        "owes": "C",
+        "from": "B"
+    },
+    {
+        "date": 1609880344000,
+        "person": "D",
+        "expense": 400,
+        "split_between": [
+            "D",
+            "A"
+        ],
+        "owes": "C",
+        "from": "D"
+    },
+    {
+        "date": 1609880344000,
+        "person": "C",
+        "expense": 1034,
+        "split_between": [
+            "A",
+            "B",
+            "D",
+            "C"
+        ],
+        "owes": "C",
+        "from": "E"
+    },
+    {
+        "date": 1609966744000,
+        "person": "E",
+        "expense": 600,
+        "split_between": [
+            "C",
+            "D",
+            "E"
+        ],
+        "owes": "D",
+        "from": "A"
+    }
+]

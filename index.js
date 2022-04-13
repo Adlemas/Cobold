@@ -1,1 +1,3 @@
-console.log("Hello world!")
+const convert = require("./converter");
+
+convert()

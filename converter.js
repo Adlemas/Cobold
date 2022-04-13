@@ -51,3 +51,5 @@ function convert() {
 if (typeof require !== 'undefined' && require.main === module) {
     convert()
 }
+
+module.exports = convert

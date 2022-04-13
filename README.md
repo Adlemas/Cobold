@@ -111,7 +111,7 @@ console.log(data)
 &emsp;To parse a large amount of data, especially a large number of json files, you can put all the files in the "json-files" folder and run the program with default settings. The program will sequentially parse the data in each file of the "json-files" folder and merge them, and then give you a result in terminal and create output csv file in "output" folder.
 
 ```console
-$ npm start "path/to/json/file"
+$ npm start
 A owes to B 202
 A owes to C 337
 A owes to D 135

@@ -1,6 +1,6 @@
 # Cobold Assessment
 
-&emsp;This is solution for assessment from Cobold about five friends and splitting money between them.
+This is solution for assessment from Cobold about five friends and splitting money between them.
 
 | Date     | Person | Expense | Split between |
 |----------|--------|---------|---------------|
@@ -49,7 +49,7 @@ $ npm run convert force
 ### As module or library:
 
 ```javascript
-const owesAnalyzer = require("owes-analyzer")
+const owesAnalyzer = require("money-splitter")
 
 const jsonBuff = fs.readFileSync("./test.json")
 

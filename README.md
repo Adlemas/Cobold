@@ -51,6 +51,11 @@ $ npm run convert force
 ```javascript
 const owesAnalyzer = require("money-splitter")
 
+// Converter example.
+owesAnalyzer.convert("./to-convert.xlsx", "./converted.json", {
+    force: true
+});
+
 const jsonBuff = fs.readFileSync("./test.json")
 
 /**
@@ -132,14 +137,4 @@ E owes to A 803
 E owes to B 303
 E owes to C 200
 E owes to D 503
-```
-
-___
-
-### Parsing one file.
-
-&emsp;To parse a small amount of information, it is enough to run the program, specifying the path to the file as an argument to the terminal command.
-
-```console
-$ npm start "path/to/json/file"
 ```

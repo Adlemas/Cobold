@@ -48,6 +48,10 @@ $ npm run convert force
 
 ### As module or library:
 
+```console
+$ npm i --save money-splitter
+```
+
 ```javascript
 const owesAnalyzer = require("money-splitter")
 
